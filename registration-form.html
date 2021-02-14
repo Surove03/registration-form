@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+        Registration Form
+    </title>
+</head>
+<body>
+
+	<h1>
+        Registration Form
+    </h1>
+
+	<form action="RegistrationFormAction.php" method="POST">
+		
+		<!-- Input Text Field -->
+		<fieldset>
+		    <legend>
+                Basic Information :
+            </legend>
+			<br>
+		          <label for="fname">First Name :</label>
+		          <input type="text" name="fname" id="fname">
+
+		    <br>
+
+		          <label for="gender">Gender :</label>
+		          <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">female </label>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female </label>
+                 <input type="radio" id="other" name="gender" value="other">
+                 <label for="other">Other </label>
+
+		    <br>
+
+			<label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime"> 
+			<br>         
+			<label for="religion">Religion :</label>
+			<select id="religion" name="religions">
+			  <option value="islam">Islam</option>
+			  <option value="others">Other</option>
+			  
+			</select>
